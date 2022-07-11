@@ -12,4 +12,8 @@ public class Main {
     private static void newFunc() {
         System.out.println("hello hello");
     }
+
+    private static void newFunc2() {
+        System.out.println("halo halo");
+    }
 }
