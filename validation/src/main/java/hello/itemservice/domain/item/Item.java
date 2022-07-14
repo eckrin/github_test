@@ -3,7 +3,6 @@ package hello.itemservice.domain.item;
 import lombok.Data;
 
 @Data
-//@ScriptAssert(lang = "javascript", script = "_this.price*_this.quantity >= 10000", message = "가격*수량>=10000이어야 합니다.")
 public class Item {
 
     private Long id;
